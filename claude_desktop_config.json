@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "shopify": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "shopify-mcp-server"
+      ],
+      "env": {
+        "SHOPIFY_ACCESS_TOKEN": "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",
+        "MYSHOPIFY_DOMAIN": "shubhamneema123.myshopify.com"
+      }
+    },
+    "shopify-local": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\Users\\shubh\\Desktop\\mcptext\\mcp-server\\index.js"]
+    }
+  }
+}
